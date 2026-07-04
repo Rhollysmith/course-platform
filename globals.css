@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #FAF9F6;
+  color: #14151A;
+}
+
+.btn-primary {
+  @apply bg-accent text-white px-5 py-2.5 rounded-card font-medium hover:opacity-90 transition;
+}
+
+.btn-outline {
+  @apply border border-line px-5 py-2.5 rounded-card font-medium hover:bg-accentSoft transition;
+}
+
+.card {
+  @apply bg-white border border-line rounded-card p-5 hover:shadow-md transition;
+}
